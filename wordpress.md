@@ -56,7 +56,7 @@ services:
 volumes:
   mysql: {}
 ```
-5. Paste this command while in **/srv/wordpress FOLDER**
+5. Paste this command while in **/vaar/www/wordpress FOLDER -- You basically need to have the file in the same folder as the directory you are in**
    `sudo docker-compose up -d`<br>
    6. Wordpress should be installed within couple minutes<br>
    7. Access your WP Website at `http://localhost:80 / http//[IP]/wp-admin/install.php`
